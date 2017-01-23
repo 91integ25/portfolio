@@ -1,0 +1,77 @@
+.navbar-fixed-top{
+  background-color:#e8e4e3;
+  border-color:#000;
+  
+}
+li:hover{
+  font-size:1em;
+  background-color:#1e90ff;
+}
+h1{
+  font-size: 2.5em;
+  color:#1e90ff;
+  font-family:Verdana, Arial, Sans serif;
+}
+body{
+  background-color: #000;
+ 
+}
+h3{
+  font-size: 2.5em;
+  color:#1e90ff;
+}
+#project-header{
+  padding-top:50px;
+  padding-bottom:50px;
+  border-top-style:solid;
+  border-top:thick double #fff;
+ 
+}
+#skill-header{
+  padding-top:50px;
+  padding-bottom:50px;
+  border-top-style:solid;
+  border-top:thick double #fff;
+}
+
+#contact-header{
+  padding-bottom:50px;
+  padding-top:50px;
+  border-top-style:solid;
+  border-top:thick double #fff;
+}
+
+p{
+  font-size:1.5em;
+  color:#1e90ff;
+  margin-top:50px;
+  
+}
+#home-header{
+   padding-top:60px;
+  padding-bottom:60px;
+}
+#about{
+  border-top-style:solid;
+  border-top:thick double #fff;
+}
+th{
+  font-size:1em;
+}
+.navbar {
+  font size:1em;
+}
+.menu {
+  float: left;
+  
+  a {
+    padding: 0 10px;
+  }
+  
+  a:hover {
+    color: #c5cae9;
+  }
+}
+
+
+
