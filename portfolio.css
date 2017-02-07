@@ -1,6 +1,7 @@
 .navbar-fixed-top{
   background-color:#e8e4e3;
   border-color:#000;
+  font-family: 'Lancelot', cursive;
   
 }
 li:hover{
@@ -10,7 +11,8 @@ li:hover{
 h1{
   font-size: 2.5em;
   color:#1e90ff;
-  font-family:Verdana, Arial, Sans serif;
+  font-family:'Lancelot', cursive ,Verdana, Arial, Sans serif;
+
 }
 body{
   background-color: #000;
@@ -19,12 +21,14 @@ body{
 h3{
   font-size: 2.5em;
   color:#1e90ff;
+  font-family: 'Lancelot', cursive;
 }
 #project-header{
   padding-top:50px;
   padding-bottom:50px;
   border-top-style:solid;
   border-top:thick double #fff;
+  font-family: 'Lancelot', cursive;
  
 }
 #skill-header{
@@ -32,6 +36,7 @@ h3{
   padding-bottom:50px;
   border-top-style:solid;
   border-top:thick double #fff;
+  font-family: 'Lancelot', cursive;
 }
 
 #contact-header{
@@ -39,39 +44,46 @@ h3{
   padding-top:50px;
   border-top-style:solid;
   border-top:thick double #fff;
+  font-family:'Lancelot', cursive;
 }
 
 p{
   font-size:1.5em;
   color:#1e90ff;
   margin-top:50px;
-  
+  font-family:'Lancelot', cursive;
 }
 #home-header{
    padding-top:60px;
   padding-bottom:60px;
+  font-family:'Lancelot', cursive;
 }
 #about{
+  text-align: center;
   border-top-style:solid;
   border-top:thick double #fff;
+  font-family: 'Lancelot', cursive;
 }
 th{
   font-size:1em;
+  font-family: 'Lancelot', cursive;
 }
 .navbar {
   font size:1em;
+
 }
 .menu {
   float: left;
+}
   
-  a {
-    padding: 0 10px;
+a {
+    padding: 10px;
+
   }
   
   a:hover {
     color: #c5cae9;
   }
-}
 
 
 
