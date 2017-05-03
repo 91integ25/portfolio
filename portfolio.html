@@ -11,28 +11,11 @@
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
-    <link href='portfolio.css' type='text/css' rel='stylesheet' >
+    <link href='./assets/css/portfolio.css' type='text/css' rel='stylesheet' >
     
   </head>
   
   <body>
-    <script type="text/javascript">
-    // ===== Scroll to Top ====
-    $(window).scroll(function() {
-    if ($(this).scrollTop() >= 300) {       // If page is scrolled more than 50px
-    $('#return-to-top').fadeIn(200);     // Fade in the arrow
-    } else {
-    $('#return-to-top').fadeOut(200);   // Else fade out the arrow
-    }
-    });
-    $('#return-to-top').click(function() { 
-    console.log("its working")      // When arrow is clicked
-    $('body,html').animate({
-    scrollTop : 0                       // Scroll to top of body
-    }, 500);
-    });
-    </script>
-    
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -55,7 +38,7 @@
       </div>
     </nav>
     <!-- navbar ends here-->
-    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" ></i></a>
+   <a href="#" class="scrollToTop"></a>
     <div class="container-fluid">
       
       <h1 id="home-header" class="text-center">Innovative Web Design/Back-End Development</h1>
@@ -84,26 +67,26 @@
           <p class="text-center">I am an up and coming web developer who at the moment does not know much about it but am learning a whole lot with peers. I also just recently joined a coding boot camp at Georgia Tech. This portfolio project will show my progress as I go through the course and learn all the valuable things there is to know about web development. In my spare time I enjoy working on cars, outdoor activities(mainly hiking and swimming), and like to play video games occasionally.
           </div>
         </div>
-        <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+     
         <h1 id="project-header" class="text-center">Projects<h1>
         <div class="row">
           
           <div class="text-center col-md-4 col-xs-4">
-            <a href="#">
-            <img class="img-responsive img-rounded" src="http://image.shutterstock.com/display_pic_with_logo/1998197/316493429/stock-photo-they-can-work-anywhere-top-view-of-three-young-people-working-together-while-sitting-outdoors-316493429.jpg" alt="image of project 1"></a>
-            <h4>Project1</h4>
+            <a href="http://codepen.io/91integ25/full/xqmNrP/" target="_blank">
+            <img class="img-responsive img-rounded" src="./assets/img/randomQuote.png" alt="image of random quote project"></a>
+            <h4>Random Quote generator</h4>
           </div>
           <div class="text-center col-md-4 col-xs-4">
-            <a href="#">
-            <img class="img-responsive img-rounded" src="http://orig04.deviantart.net/4979/f/2015/215/1/9/classic_big_ben___long_exposure_shot____by_loncing-d93zqum.jpg" alt="image of project 2"></a>
-            <h4>Project2</h4>
+            <a href="http://stark-journey-44969.herokuapp.com/" target="_blank">
+            <img class="img-responsive img-rounded" src="./assets/img/crystal.png" alt="image of project 2" ></a>
+            <h4>Crystal collector game</h4>
           </div>
           
           <div class="text-center col-md-4 col-xs-4">
             <a href="#">
               <img class= "img-responsive img-rounded" src="https://cdn.pixabay.com/photo/2017/01/16/15/17/hot-air-balloons-1984308__340.jpg" alt="image of project3">
             </a>
-            <h4>Project3</h4>
+            <h4>Psychic game</h4>
           </div>
         </div>
         <div class="row">
@@ -165,7 +148,7 @@
           <a href="https://github.com/91integ25" target= "_blank"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
           <a href="http://stackoverflow.com/users/7311701/j-carrillo" target="_blank"><i class="fa fa-stack-overflow fa-3x" aria-hidden="true" ></i></a>
         </div>
-        <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up" ></i></a>
+   
       </div>
     </body>
   </html>
